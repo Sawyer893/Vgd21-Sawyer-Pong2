@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 17ca789ed3871fc4e8e692079359e4c2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Scoreboard: {fileID: 1823037671090733093, guid: 5f3006aade2be7b4781c192ff313d3f1,
+      type: 3}
+  - ball: {fileID: 7171273221143119057, guid: 5c262ced3bf2a544a8710b7c26cbb42a, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
