@@ -61,13 +61,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\LeftP.cs" />
+    <Compile Include="Assets\LeftPlayerWinsWarp.cs" />
     <Compile Include="Assets\RightP.cs" />
+    <Compile Include="Assets\RightPlayerWinsWarp.cs" />
     <Compile Include="Assets\Scenes\GameManager.cs" />
-    <Compile Include="Assets\ScoreDisplay.cs" />
-    <Compile Include="Assets\Stuff\BallControl.cs" />
     <Compile Include="Assets\Stuff\BallMotion.cs" />
-    <Compile Include="Assets\Stuff\PlayerControls.cs" />
-    <Compile Include="Assets\Stuff\SideWalls.cs" />
+    <Compile Include="Assets\Stuff\Lscore.cs" />
+    <Compile Include="Assets\Stuff\Rscore.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Trask/OneDrive/Documents/Pong Project/Vgd21-Sawyer-Pong2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

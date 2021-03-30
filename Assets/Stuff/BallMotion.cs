@@ -15,6 +15,8 @@ public class BallMotion : MonoBehaviour
     public string Info1;
     public string Info2;
 
+    public int Leftscore = 0;
+    public int Rightscore = 0;
 
     Vector2 velocityVector;
     Rigidbody2D rb;
@@ -38,7 +40,23 @@ public class BallMotion : MonoBehaviour
 
         Vector2 unitVector = rb.velocity.normalized;
         Info2 = "unitVector: (" + unitVector.x + "," + unitVector.y + ")";
+        // Ball Reset
+        if (transform.position.x > 5.2)
+        {
+            transform.position = new Vector3(0, 0, 0);
+            rb.velocity = -rb.velocity;
+            Leftscore++;
+            Lscore.scoreValue += 1;
+        }
 
+        // Ball Reset
+        if (transform.position.x < -5.2)
+        {
+            transform.position = new Vector3(0, 0, 0);
+            rb.velocity = -rb.velocity;
+            Rightscore++;
+            Rscore.scoreValue += 1;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
