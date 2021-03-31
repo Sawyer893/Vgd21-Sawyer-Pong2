@@ -60,14 +60,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\LeftP.cs" />
-    <Compile Include="Assets\LeftPlayerWinsWarp.cs" />
-    <Compile Include="Assets\RightP.cs" />
-    <Compile Include="Assets\RightPlayerWinsWarp.cs" />
     <Compile Include="Assets\Scenes\GameManager.cs" />
-    <Compile Include="Assets\Stuff\BallMotion.cs" />
-    <Compile Include="Assets\Stuff\Lscore.cs" />
-    <Compile Include="Assets\Stuff\Rscore.cs" />
+    <Compile Include="Assets\Scripts\BallMotion.cs" />
+    <Compile Include="Assets\Scripts\LeftP.cs" />
+    <Compile Include="Assets\Scripts\Lscore.cs" />
+    <Compile Include="Assets\Scripts\RightP.cs" />
+    <Compile Include="Assets\Scripts\Rscore.cs" />
+    <Compile Include="Assets\Scripts\SceneWarpA.cs" />
+    <Compile Include="Assets\Scripts\SceneWarpB.cs" />
+    <Compile Include="Assets\Scripts\SceneWarpC.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Trask/OneDrive/Documents/Pong Project/Vgd21-Sawyer-Pong2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
